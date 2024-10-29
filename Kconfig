@@ -1,0 +1,14 @@
+# This is template Kconfig file
+
+config MCUX_COMPONENT_middleware.libjpeg
+    bool "Enable middleware.libjpeg"
+    default n
+    help
+        Enable middleware.libjpeg component
+
+
+config MCUX_COMPONENT_middleware.libjpeg.template
+    bool "Enable middleware.libjpeg.template"
+    default n
+    help
+        Enable middleware.libjpeg.template component

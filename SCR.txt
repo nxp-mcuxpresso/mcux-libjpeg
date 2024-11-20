@@ -8,5 +8,6 @@ Type of content: source code
 Description and comments: JPEG image encoding, decoding, and transcoding
 Release Location: https://github.com/nxp-mcuxpresso/mcux-libjpeg
 Origin:
-      IJG (IJG) - http://www.ijg.org
       NXP (IJG)
+      The Independent JPEG Group's software (IJG) - http://www.ijg.org/files/jpegsr9b.zip
+      PMBplus library, written by Jef Poskanzer, David Rowley (HPND-Pbmplus) - http://www.ijg.org/files/jpegsr9b.zip

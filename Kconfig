@@ -2,16 +2,21 @@
 
 menu "Libjpeg"
 
-	config MCUX_COMPONENT_middleware.libjpeg
-	    bool "Libjpeg decoder"
-	    default n
-	    help
-	        Enable middleware.libjpeg component
+    config MCUX_COMPONENT_middleware.libjpeg
+        bool "Libjpeg decoder"
+        default n
+        help
+            Enable middleware.libjpeg component
 
-	config MCUX_COMPONENT_middleware.libjpeg.template
-	    bool "Libjpeg template"
-	    default n
-	    help
-	        Enable middleware.libjpeg.template component
+    config MCUX_COMPONENT_middleware.libjpeg.template
+        bool "Libjpeg template"
+        default n
+        help
+            Enable middleware.libjpeg.template component
 
+    config LIB_JPEG_USE_HW_ACCEL
+        bool "Use the SDK jpegdec driver for HW acceleration"
+        default n
+        help
+            No prefix in generated macro
 endmenu

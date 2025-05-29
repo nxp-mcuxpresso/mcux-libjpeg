@@ -1,0 +1,94 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-05-29T03:18:40Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "mcux-libjpeg-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/643b1455-9832-4bbc-a867-9ff348d80375",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
+      "name": "mcux-libjpeg",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(IJG)",
+      "licenseDeclared": "(IJG)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/mcux-libjpeg",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-b1694b38-1760-45df-bbfd-8a064e7daaca",
+      "name": "libjpeg",
+      "versionInfo": "9b",
+      "licenseConcluded": "IJG",
+      "licenseDeclared": "IJG",
+      "homepage": "http://www.ijg.org",
+      "downloadLocation": "http://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/libj/libjpeg9",
+      "originator": "Organization: ubuntu",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:9b:1:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dev:9b:1:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:9b:2:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:9b:2:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:9b:1:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/ubuntu/libjpeg9@9b-1?epoch=1",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "8b2cdacb-432e-4abe-90a3-76c503f736d1",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
+      "relationshipType": "DYNAMIC_LINK",
+      "relatedSpdxElement": "SPDXRef-package-b1694b38-1760-45df-bbfd-8a064e7daaca"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-b1694b38-1760-45df-bbfd-8a064e7daaca"
+    }
+  ]
+}

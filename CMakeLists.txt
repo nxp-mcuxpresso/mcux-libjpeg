@@ -62,6 +62,10 @@ if (CONFIG_MCUX_COMPONENT_middleware.libjpeg)
     mcux_add_include(
         INCLUDES inc
     )
+
+    mcux_add_iar_configuration(
+        CC "--diag_suppress=Pe188"
+    )
 endif()
 
 if (CONFIG_MCUX_COMPONENT_middleware.libjpeg.template)

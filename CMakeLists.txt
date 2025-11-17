@@ -64,7 +64,7 @@ if (CONFIG_MCUX_COMPONENT_middleware.libjpeg)
     )
 
     mcux_add_iar_configuration(
-        CC "--diag_suppress=Pe188"
+        CC "--diag_suppress=Pe188,Pa089"
     )
 endif()
 

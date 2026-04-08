@@ -41,7 +41,7 @@ jpeg_start_decompress (j_decompress_ptr cinfo)
 #if LIB_JPEG_USE_HW_ACCEL
   JPEG_DECODER_Type *jpegdec = cinfo->jpegdec;
   cinfo->format_supported = FALSE;
-  jpegdec_pixel_format_t format;
+  jpegdec_pixel_format_t format = kJPEGDEC_PixelFormatGray;
 
   /* JPEGDEC
      1. Do not support CSC or scale

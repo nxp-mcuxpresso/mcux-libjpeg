@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-05-29T03:18:40Z",
+    "created": "2026-11-10T02:34:17Z",
     "creators": [
       "Organization: NXP"
     ],
-    "licenseListVersion": "3.20"
+    "licenseListVersion": "3.28"
   },
-  "name": "mcux-libjpeg-v25.06.00",
+  "name": "mcux-libjpeg-9b",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/643b1455-9832-4bbc-a867-9ff348d80375",
+  "documentNamespace": "https://nxp.com/spdx/697089ce-3505-445f-ad7e-ba31076a4961",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
+      "SPDXID": "SPDXRef-package-697089ce-3505-445f-ad7e-ba31076a4961",
       "name": "mcux-libjpeg",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "9b",
       "licenseConcluded": "(IJG)",
       "licenseDeclared": "(IJG)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/mcux-libjpeg",
@@ -31,44 +31,34 @@
       "licenseConcluded": "IJG",
       "licenseDeclared": "IJG",
       "homepage": "http://www.ijg.org",
-      "downloadLocation": "http://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/libj/libjpeg9",
-      "originator": "Organization: ubuntu",
+      "downloadLocation": "http://www.ijg.org",
+      "originator": "Organization: unknown",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:9b:1:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:1\\:9b:1:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
         },
         {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dev:9b:1:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:1\\:9b:2:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
         },
         {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:9b:2:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:1\\:9b:1:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
         },
         {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg-progs:9b:2:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:1\\:9b:2:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
         },
         {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dbg:9b:1:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:debian_package:libjpeg9-dev:1\\:9b:1:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
-        },
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:deb/ubuntu/libjpeg9@9b-1?epoch=1",
-          "referenceType": "purl"
-        },
-        {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "8b2cdacb-432e-4abe-90a3-76c503f736d1",
-          "referenceType": "BlackDuck-ComponentOrigin"
         }
       ],
       "filesAnalyzed": false
@@ -78,16 +68,16 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375"
+      "relatedSpdxElement": "SPDXRef-package-697089ce-3505-445f-ad7e-ba31076a4961"
     },
     {
-      "spdxElementId": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
-      "relationshipType": "DYNAMIC_LINK",
+      "spdxElementId": "SPDXRef-package-697089ce-3505-445f-ad7e-ba31076a4961",
+      "relationshipType": "CONTAINS",
       "relatedSpdxElement": "SPDXRef-package-b1694b38-1760-45df-bbfd-8a064e7daaca"
     },
     {
-      "spdxElementId": "SPDXRef-package-643b1455-9832-4bbc-a867-9ff348d80375",
-      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-package-697089ce-3505-445f-ad7e-ba31076a4961",
+      "relationshipType": "DYNAMIC_LINK",
       "relatedSpdxElement": "SPDXRef-package-b1694b38-1760-45df-bbfd-8a064e7daaca"
     }
   ]
